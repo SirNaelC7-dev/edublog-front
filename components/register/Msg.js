@@ -4,9 +4,10 @@ export default function Msg(){
     return(
         <Text
         color="#ffffff"
-        fontSize="50"
+        fontSize="40"
         lineHeight="50px"
-        alignContent='flex-start'>
+        alignContent='flex-start'
+        >
             Registre-se e faça parte dessa comunidade
         </Text>
     )

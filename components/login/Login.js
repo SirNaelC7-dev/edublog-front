@@ -1,4 +1,5 @@
 import {Link, Text, Flex, FormControl, FormLabel, Input, Button, Box} from '@chakra-ui/react'
+import {EmailIcon, LockIcon} from '@chakra-ui/icons'
 
 export default function Login(){
     return(
@@ -15,7 +16,7 @@ export default function Login(){
                 width='100%'
                 justifyContent='center'
                 color='#ffffff'>
-                    <FormLabel htmlFor='email'>E-mail</FormLabel>
+                    <FormLabel htmlFor='email' placeholder='<EmailIcon>'>E-mail</FormLabel>
                     <Input id='email' type='email'/>
                     <FormLabel htmlFor='password'>Senha</FormLabel>
                     <Input id='password' type='password'/>

@@ -4,7 +4,7 @@ export default function Edulogo(){
     return(
         <Flex>
             <Text
-            fontSize="50"
+            fontSize="40"
             color="#00ff00"
             justifyContent="center"
             margin="10px"

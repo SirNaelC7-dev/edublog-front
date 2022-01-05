@@ -1,4 +1,5 @@
-import {Flex} from '@chakra-ui/react'
+import {Flex, Link} from '@chakra-ui/react'
+import { ArrowBackIcon } from '@chakra-ui/icons'
 import Edulogo from './Edulogo'
 import Msg from '../register/Msg'
 import Register from '../register/Register'
@@ -25,7 +26,8 @@ export default function Container11(){
                 </Flex>
             </Flex>
             <Flex
-            justify='center'
+            margin='-60px'
+            justifyContent='center'
             align='center'
             color='#ffffff'
             flexDirection='column'
@@ -33,8 +35,13 @@ export default function Container11(){
             >
                 <Edulogo/>
                 <Msg/>
+                <Flex>
+                    <Link 
+                    color='#00ff00'
+                    href='/login'
+                    ><ArrowBackIcon/> voltar para o login</Link>
+                </Flex>
             </Flex>
-
         </Flex>
     )
 }

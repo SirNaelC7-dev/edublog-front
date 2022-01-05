@@ -1,4 +1,4 @@
-import {Flex, FormControl, FormLabel, Input, Button, Box} from '@chakra-ui/react'
+import {Link, Text, Flex, FormControl, FormLabel, Input, Button, Box} from '@chakra-ui/react'
 
 export default function Login(){
     return(
@@ -21,12 +21,18 @@ export default function Login(){
                     <Input id='password' type='password'/>
                     
                 </FormControl>
+                <Text
+                color='#ffffff'
+                fontSize='15px'
+                align='center'>
+                    Não tem uma conta? <Link href='/register' border='none' color='#00ff00'>Registre-se</Link>
+                </Text>
                 <Button
                 type='submit'
-                color='#000000'
-                margin='30px'
-                colorScheme='#00ff00'
-                bgColor='#00ff00'>
+                color='#000000' 
+                bgColor='#00ff00'
+                width='100%'
+                marginTop='0 auto'>
                     Entrar
                 </Button>
             </Flex>

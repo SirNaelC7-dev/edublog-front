@@ -4,7 +4,7 @@ import {Text, Box, Flex, Link, FormControl, FormLabel, Input, Button} from '@cha
 export default function Register(){
     return(
         <Box
-        width='100%'
+        width='80%'
         bg='#2d312a'
         borderRadius='20px'
         margin='30px'
@@ -14,16 +14,20 @@ export default function Register(){
             <Flex
             margin='10px'
             color='#2d312a'
-            flexDirection='column'>
+            flexDirection='column'
+            >
                 <Box
-                width='100%'
+                width='180px'
                 color='#ffffff'
+                width='212px'
                 >
                     <FormControl
                     width='100%'
                     justifyContent='center'
                     color='#ffffff'
                     height='100%'
+                    width='212px'
+                    
                     >
                         <FormLabel htmlFor='email'>E-mail</FormLabel>
                         <Input id='email' type='email'></Input>
@@ -38,7 +42,7 @@ export default function Register(){
                     </FormControl>
                     <Text
                     align='center'
-                    fontSize='10px'
+                    fontSize='15px'
                     >
                         Ao se registrar, você aceita nossos <Link color='#00ff00'>termos de uso</Link> e a nossa <Link color='#00ff00'>política de privacidade</Link>
                     </Text>
